@@ -1,4 +1,4 @@
-package Week3.week3;
+package Week4.week3;
 
 public class Teacher extends Professional {
 
@@ -19,11 +19,6 @@ public class Teacher extends Professional {
 
 	public void setNumPupils(int numPupils) {
 		this.numPupils = numPupils;
-	}
-
-	public Teacher() {
-		// TODO - implement Teacher.Teacher
-		throw new UnsupportedOperationException();
 	}
 
 }

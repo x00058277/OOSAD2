@@ -1,11 +1,11 @@
-package Week3.week3;
+package Week4.week3;
 
 public class Doctor extends Professional {
 
 	private boolean GP;
 	private String gender;
 
-	public boolean getGP() {
+	public boolean isGP() {
 		return this.GP;
 	}
 
