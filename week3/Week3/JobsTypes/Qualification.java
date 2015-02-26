@@ -1,8 +1,9 @@
-package Week4.week3;
+package Week3.JobsTypes;
 
 public class Qualification {
 
 	private String qualName;
+	private String qualcode;
 
 	public String getQualName() {
 		return this.qualName;
@@ -10,6 +11,14 @@ public class Qualification {
 
 	public void setQualName(String qualName) {
 		this.qualName = qualName;
+	}
+
+	public String getQualcode() {
+		return this.qualcode;
+	}
+
+	public void setQualcode(String qualcode) {
+		this.qualcode = qualcode;
 	}
 
 }
